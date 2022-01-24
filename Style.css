@@ -1,13 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6, p{
-    font-family:'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration: none;
+    color: black;
 }
 li{
     list-style: none;
 }
+
+/* header start */
+nav{
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.nav-container .logo{
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+.nav-container ul li{
+    margin-right: 10px;
+}
+/* header end */
+
+/* top banner start */
+.top-banner-area{
+    padding: 25px;
+    
+}
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.banner-content p{
+    display: inline-block;
+    width: 70%;
+    margin: 20px 0;
+}
+.banner-content button{
+    display: block;
+}
+.banner-img{
+    background:url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.banner-btn{
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 30px;
+    padding: 13px;
+    color: white;
+    cursor: pointer;
+}
+
+/* top banner end */
+
+/* middle banner area start */
+.middle-banner-element{
+    margin-top: 78px;
+}
+.middle-banner-area{
+    border-top:2px solid rgb(194, 192, 192);
+    border-bottom:2px solid rgb(194, 192, 192);
+}
+.middle-banner-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+/* middle banner area end */
+
+/* main area start */
+    .popular-section{
+        margin-top: 75px;
+    }
+    .popular-collection-area > h2{
+        text-align: center;
+        margin: 50px 0;
+    }
+
+/* main area end */
