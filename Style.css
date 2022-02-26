@@ -101,26 +101,32 @@ ul{
 /* main area start */
     .popular-section{
         margin-top: 75px;
+        
+    }
+    .popular-section > p{
+        text-align: end;
+        color:#E02C6D ;
+        margin-top: 20px;
     }
     .popular-collection-area > h2{
         text-align: center;
         margin: 50px 0;
     }
-    .popular-collection-area > p{
-        text-align: end;
-        color:#E02C6D ;
-    }
+    
     .product-card-content{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 440px);
         
     }
     .card{
         width: 329px;
         height: 450px;
-        padding: 10px;
-        box-shadow: 10px 10px 10px 10px rgb(218, 216, 216);
+        padding: 15px;
+        box-shadow: 5px 10px 5px 5px rgb(218, 216, 216);
         border-radius: 5px;
+    }
+    .card > span{
+        color: orange;
     }
 
     /* feature area start  */

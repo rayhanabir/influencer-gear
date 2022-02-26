@@ -1,4 +1,4 @@
-@media screen and (max-width: 575.98px) {
+@media screen and (max-width: 575px) {
     .container{
         width: 100%;
         margin: 0 auto;
@@ -10,8 +10,7 @@
         width: 100%;
         margin-bottom: 50px;
     }
-    .banner-content h1{
-        
+    .banner-content h1{  
         font-size: 20px;
     }
     .top-banner{
@@ -72,6 +71,7 @@
     }
     .footer-area{
         width: 100%;
+    
     }
 
 }
